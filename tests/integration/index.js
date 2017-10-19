@@ -17,7 +17,8 @@ describe('integration tests', () => {
     connection: {
       host: '127.0.0.1',
       user: 'objection',
-      database: 'objection_test'
+      database: 'objection_test',
+      password: 'secret_objection_password',
     },
     pool: {
       min: 2,
